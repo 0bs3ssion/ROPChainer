@@ -27,7 +27,7 @@ class GetGadgets:
                 self.filters[k] = ".*: .* " + self.filters[k] + " .* ; ret"
         else:
             for k in self.filters.keys():
-                self.filters[k] = ".*: " + self.filters[k] + " ret "
+                self.filters[k] = ".*: " + self.filters[k] + " ret"
 
     def checkGadget(self, gadget, type="ALL"):
         """
